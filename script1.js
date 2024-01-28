@@ -59,7 +59,6 @@
 // let str1 = 'Анна';
 // let str2 = 'Елфимова';
 // alert(str1);
-// alert(str2);
 
 // let str = '!!!';
 // alert(str);
@@ -570,3 +569,956 @@
 
 // let obj = {x: 1, y: 2, z: 3};
 // console.log(Object.keys(obj).length);
+
+// //105
+// let test = 0;
+
+// if (test > 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = 0;
+
+// if (test1 < 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test2 = 0;
+
+// if (test2 >= 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test3 = 0;
+
+// if (test3 <= 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test4 = 0;
+
+// if (test4 == 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test5 = 0;
+
+// if (test5 != 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test6 = 0;
+// let test7 = 10;
+
+// if (test6 > test7) {
+// 	console.log('test6 больше test7'); 
+// } else {
+// 	console.log('test6 меньше test7');
+// }
+
+// if (test6 == test7) {
+// 	console.log('значения переменных равны'); 
+// } else {
+// 	console.log('значения переменных не равны');
+// }
+
+// let test8 = 'abcdef';
+
+// if (test == 'abc') {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test9 = '123';
+// let test10 = 123;
+
+// if (test9 == test10) {
+//     console.log ('значения переменных равны')
+// } else {
+// 	console.log('значения переменных не равны');
+// }
+
+// let num = 3;
+
+// if (num > 0 && num < 5) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// if (num >= 10 && num <= 20) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num1 = 3;
+// let num2 = 10;
+
+// if (num1 <= 1 && num2 >= 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+		
+// if ((num > 5 && num < 10) || num == 20) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+		
+// if (num > 5 || ( num > 0 && num < 3)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (num == 9 || (num > 10 && num < 20 ) || (num > 20 && num < 30)) { 
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (!(num1 >= 0 || num2 <= 10)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let tes = true;
+
+// if (tes === true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (tes === false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// //0, -0, +0, '', false, null, undefined, NaN
+
+
+// if (tes) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (!tes) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// if (!tes) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (tes) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test11 = true;
+// let test12 = true;
+
+// if (test11 && test12) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (test11 && !test12) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (!test11 && !test12 ) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (test11 && test12) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let test13 = true;
+
+// if (test11 && test12 && test13) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (test11  || test12 && test13 ) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (test11 || !test12  && !test13) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// if (test == 10) {
+// 	console.log('yes');
+// }
+
+// if (test > 0) console.log('+++'); else console.log('---');
+
+// if (test > 0) console.log('+++');
+
+// let day = 5;
+
+// if (day >=1 && day <= 10 ) {
+//     console.log('первая декада')
+// } else if (day >=11 && day <= 20 ) {
+//     console.log('вторая декада')
+// } else if (day >=21 && day <= 31 ) {
+//     console.log('третья декада')
+// } 
+
+// if (day >=1 && day <= 10 ) {
+//     console.log('первая декада')
+// } else if (day >=11 && day <= 20 ) {
+//     console.log('вторая декада')
+// } else if (day >=21 && day <= 31 ) {
+//     console.log('третья декада')
+// } else {
+// 	console.log('неверное значение переменной');
+// }
+
+// num = 55;
+
+// if (num >= 10 && num <= 99) {
+//     let sum = Number(String(num)[0]) +  Number(String(num)[1]);
+
+//     if (sum <= 9) {
+//         console.log('сумма цифр однозначна');
+//     } else {
+//         console.log('сумма цифр двухзначна');
+//     }   
+
+// }
+
+// let lang = 'ru';
+
+// switch (lang) {
+// 	case 'ru':
+// 		console.log('рус');
+// 	break;
+// 	case 'en':
+// 		console.log('анг');
+// 	break;
+// 	case 'de':
+// 		console.log('нем');
+// 	break;
+// 	default:
+// 		console.log('язык не поддерживается');
+// 	break;
+// }
+
+// let num = 1;
+// let res = num >= 0 ? 1: 0;
+// console.log(res);
+
+// let a = 2 * (3 - 1);
+// let b = 6 - 2;
+// console.log(a == b);
+
+// let a = 5 * (7 - 4);
+// let b = 1 + 2 + 7;
+// console.log(a > b);
+
+// let a = 2 ** 4;
+// let b = 4 ** 2;
+// console.log(a != b);
+
+// let k = confirm('вам уже есть 18?');
+// if (k) {
+//     alert('для взрослых');
+// } else {
+//     alert('доступ запрещен ');
+// }
+
+// let age = 17;
+// let adult;
+// if (age >= 18) {
+// 	adult = true;
+// } else {
+// 	adult = false;
+// }
+
+// console.log(adult);
+
+// let age = 17;
+// let adult;
+
+// if (age >= 18) {
+// 	adult = true;
+// } else {
+// 	adult = false;
+// }
+
+// console.log(adult);
+
+// let age = 17;
+// let adult;
+
+// if (age >= 18) {
+// 	adult = true;
+// } else {
+// 	adult = false;
+// }
+
+// console.log(adult);
+
+// let age = 17;
+// let res;
+
+// if (age >= 18) {
+// 	if (age <= 23) {
+// 		res = 'от 18 до 23';
+// 	} else {
+// 		res = 'больше 23';
+// 	}
+// } else {
+// 	res = 'меньше 18';
+// }
+
+// console.log(res);
+
+// let age = 19;
+// let res;
+
+// if (age >= 18) {
+// 	if (age <= 23) {
+// 		res = 'от 18 до 23';
+// 	} else {
+// 		res = 'больше 23';
+// 	}
+// } else {
+// 	res = 'меньше 18';
+// }
+
+// console.log(res);
+
+// let min = 10;
+
+// if (min >= 0 && min <= 19) {
+// 	console.log('1 треть');
+// }
+
+// if (min >= 20 && min <= 39) {
+// 	console.log('2 треть');
+// }
+
+// if (min >= 40 && min <= 59) {
+// 	console.log('3 треть');
+// }
+
+// let arr = [1, 2, 3];
+// if (arr.length == 3) {
+//     let sum = arr[0] +  arr[1] + arr[2] ;
+//     console.log(sum)
+// } else {
+//     console.log('jjjjj')
+// }
+
+// let str = '12345';
+
+// if (str[0] == 'a') {
+// 	console.log('!');
+// }
+
+// let last = str[str.length - 1];
+// if (last == 'x') {
+// 	console.log('!');
+// }
+
+// if (str[0] == 'a' || str[0] == 'b') {
+// 	console.log('!');
+// }
+
+// let num = 12345;
+// let last =  String(num)[String(num).length - 1];
+
+// if (last == 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (last == 0 || last == 2 || last == 4 || last == 6 || last == 8) {
+// 	console.log('четное');
+// } else {
+// 	console.log('нечетное');
+// }
+
+// let a = 10;
+// let rest = a % 2;
+
+// if (rest === 0) {
+// 	console.log('четное');
+// } else {
+// 	console.log('нечетное');
+// }
+
+// let a = 20;
+// let rest = a % 3;
+
+// if (rest === 0) {
+// 	console.log('делится на 3');
+// } else {
+// 	console.log('не делится на 3');
+// }
+
+// let num1 = 1;
+// let num2 = 2;
+
+// if (num1 + num2 === 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num1 = '1';
+// let num2 = '2';
+
+// if (Number(num1) + Number(num2) === 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num1 = '1';
+// let num2 = '2';
+
+// if (Number(num1) + Number(num2) === 3)  {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 123;
+
+// if (Number(String(num)[0]) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 123;
+
+// if (Number(String(num)[0]) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 123;
+
+// if (Number(String(num)[0]) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 123;
+// let first = String(num)[0];
+
+// if (Number(first) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 12;
+
+// if (String(num).length === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 12;
+// let str = String(num);
+
+// if (str.length === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 12;
+
+// if (String(num).length === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 12;
+
+// if (String(num).length === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 12;
+
+// if (String(num).length === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = '123033';
+
+// let sum1 = Number(num[0]) + Number(num[1]) + Number(num[2]);
+// let sum2 = Number(num[3]) + Number(num[4]) + Number(num[5]);
+
+// if (sum1 == sum2) {
+// 	console.log('суммы равны');
+// } else {
+// 	console.log('суммы не равны');
+// }
+
+// let month = 5;
+// if (month >=1 && month <=2 || month == 12) {
+//     console.log('зима');
+// } else if (month >= 3 && month <=5) {
+//     console.log('весна');
+// } else if (month >=6 && month <=8) {
+//     console.log('лето');
+// } else if (month >=9 && month <=11) {
+//     console.log('осень');
+// }
+
+// let str = 'abcde';
+// if (str[0] == 'a') {
+//     console.log('да');
+// } else {
+//     console.log('нет');
+// }
+
+// let num = 12345;
+// let str = String(num);
+// if (str[0] == 1 || str[1] == 2 || str[2] == 3 ) {
+//     console.log('да');
+// } else {
+//     console.log('нет');
+// }
+
+// let num1 = 123;
+// let num = String(num1);
+// console.log(Number(num[0]) + Number(num[1]) + Number(num[2]));
+
+// let num = 123456;
+// let sum1 = Number(num[0]) + Number(num[1]) + Number(num[2]);
+// let sum2 = Number(num[3]) + Number(num[4]) + Number(num[5]);
+
+// if (sum1 == sum2) {
+//     console.log('да');
+// } else {
+//     console.log('нет');
+// }
+
+// let arr = ['a', 'b', 'c', 'd', 'e']; 
+// for (let elem of arr) {
+// 	console.log(elem);
+// }
+
+// let obj = {x: 1, y: 2, z: 3};
+// for (let key in obj) {
+// 	console.log(key); 
+// }
+
+// for (let key in obj) {
+// 	console.log(obj[key]); 
+// }
+
+// let i = 1;
+
+// while (i != 101) {
+// 	console.log(i);
+// 	i++;
+// }
+
+// let i = 11;
+
+// while (i != 34) {
+// 	console.log(i);
+// 	i++;
+// }
+
+// let num = 4;
+// let sum = 0;
+// while (num <1000) {
+//     num = num * 3;
+//     sum+=1;   
+//     console.log(num);
+//     console.log(sum);
+// }
+
+// for (let i = 1; i <= 100; i++) {
+// 	console.log(i); 
+// }
+
+// for (let i = 11; i <= 33; i++) {
+// 	console.log(i); 
+// }
+
+// for (let i = 1; i <= 99; i++) {
+//     if (i % 2 != 0) {
+//         console.log(i); 
+//     }
+// }
+
+// for (let i = 0; i <= 100; i+=2) {
+// 	console.log(i); 
+// }
+
+// for (let i = 100; i > 0; i--) {
+// 	console.log(i); 
+// }
+
+//////////////////////////////////////////практика 167
+
+// 1
+// let a = 1;
+// while (a < 101) {
+//     console.log(a);
+//     a++;
+// }
+
+// 2
+// for (let i = 100; i > 0; i--) {
+// 	console.log(i); 
+// }
+
+// 3
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i); 
+//     }
+	
+// }
+
+// 4
+
+// let arr = [];
+
+// for (let i = 0; i < 10; i++) {
+// 	arr.push('x');
+// }
+
+// console.log(arr);
+
+// 5
+// let arr = [];
+
+// for (let i = 1; i <= 10; i++) {
+// 	arr.push(i);
+// }
+
+// console.log(arr);
+
+// 6
+// let arr = [1, 2, 10, 5 ,15];
+
+// for (let elem of arr) {
+
+//     if (elem > 0 && elem < 10) {
+//         console.log(elem);
+//     }
+// }
+
+// 7
+// let arr = [1, 5, 2, 10, 15];
+
+// for (let elem of arr) {
+
+//     if (elem === 5) {
+//         console.log('есть');
+//         break;
+//     }
+// }
+
+// 8
+// let arr = [1, 2, 10, 5 ,15];
+// let sum = 0;
+
+// for (let elem of arr) {
+//     sum += elem;
+// }
+// console.log(sum);
+
+// 9
+// let arr = [1, 2, 10, 5 ,15];
+// let sum = 0;
+// let e;
+// for (let elem of arr) {
+//     e = elem ** 2;
+//     sum += e;
+// }
+// console.log(sum);
+
+// 10
+// let arr = [1, 2, 10, 5 ,15];
+// let sum = 0;
+// let sum1;
+// for (let elem of arr) {
+//     sum += elem;
+//     sum1 = sum/arr.length;
+// }
+// console.log(sum1);
+
+
+// 11
+// function factorial(number) {
+//     let result = 1;
+    
+//     for (let i = 1; i <= number; i++) {
+//        result *= i;
+//     }
+    
+//     return result;
+//  }
+ 
+//  console.log(factorial(5)); 
+
+// 12
+
+// let arr = [];
+
+// for (let i = 10; i >= 1; i--) {
+// 	arr.push(i);
+// }
+
+// console.log(arr);
+
+// 13
+// let arr = [-1, 2, 10, 5 ,15];
+// let sum = 0;
+// for (let elem of arr) {
+//     if (elem > 0) {
+//         sum += elem;
+//     }
+// }
+// console.log(sum);
+
+// 14 
+// let arr = [10, 20, 30, 50, 235, 3000];
+
+// for (let i = 0; i < arr.length; i++) {
+//     let value = arr[i];
+//     let a = String(value); 
+//     if (a[0] === '1' || a[0] === '2' || a[0] === '5') {
+//         console.log(arr[i]);
+//     }
+// }
+
+// 15
+// let arr = [10, 20, 30, 50, 235, 3000];
+// for (let i = arr.length - 1; i >= 0; i--) {
+// 	console.log(arr[i]);
+// }
+
+// 16
+// let arr = [10, 1, 30, 50, 235, 5];
+// for (let i = 0; i <= arr.length - 1; i++) {
+	
+//     if (i == arr[i]){
+//         console.log(arr[i]);
+//     }
+// }
+
+// 17
+// let arr = [10, 1, 30, 50, 235, 5];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     document.write(arr[i] + '<br>');
+// }
+
+// 18
+// let arr = [10, 1, 30, 50, 235, 5];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     document.write(arr[i] + '<p>');
+// }
+
+// 19 
+// let arr = ['понедельник',  'вторник',  'среда',  'четверг', 'пятница' ,  'суббота' , 'воскресенье'];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     if (i === 5 || i === 6) {
+//         console.log('<b>' + arr[i] + '<b>');
+//     } else {
+//         console.log(arr[i]);
+//     }
+
+// }
+
+// 20
+// let day = 3;
+// let arr = ['понедельник',  'вторник',  'среда',  'четверг', 'пятница' ,  'суббота' , 'воскресенье'];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     if (i == day) {
+//         console.log('<i>' + arr[i] + '<i>');
+//     } else {
+//         console.log(arr[i]);
+//     }
+
+// }
+
+// 21
+// let obj = {
+// 	employee1: 100,
+// 	employee2: 200,
+// 	employee3: 300,
+// 	employee4: 400,
+// 	employee5: 500,
+// 	employee6: 600,
+// 	employee7: 700,
+// };
+
+// for (let employee in obj) {
+//     obj[employee] += obj[employee] * 0.1;
+//}
+  
+//console.log(obj);
+
+// 22
+// let obj = {
+// 	employee1: 100,
+// 	employee2: 200,
+// 	employee3: 300,
+// 	employee4: 400,
+// 	employee5: 500,
+// 	employee6: 600,
+// 	employee7: 700,
+// };
+
+// for (let employee in obj) {
+//     if (obj[employee] <= 400) {
+//         obj[employee] += obj[employee] * 0.1;
+//     }
+
+// }
+// console.log(obj);
+
+// 23
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [6, 7, 8, 9, 10];
+
+// let obj = {};
+
+// for (let i = 0; i <= 4; i++) {
+// 	let key = arr1[i];
+// 	let value = arr2[i];
+	
+// 	obj[key] = value;
+// }
+
+// console.log(obj);
+
+// 24
+// let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+// let keys = 0;
+// let value = 0;
+// for (let key in obj) {
+//     keys += Number(key);
+// 	value += obj[key];
+// }
+// let res = keys/value;
+// console.log(res);
+
+
+// 25
+// let obj = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+
+// let arr1 = [];
+// let arr2 = [];
+
+// for (let i = 0; i <= 4; i++) {
+// 	arr1 = Object.keys(obj);
+//     arr2 = Object.values(obj);
+
+// }
+
+// console.log(arr1);
+// console.log(arr2);
+
+// 26
+
+// let obj = {
+// 	1: 125,
+// 	2: 225,
+// 	3: 128,
+// 	4: 356,
+// 	5: 145,
+// 	6: 281,
+// 	7: 452,
+// };
+// let arr = [];
+
+// for (let key in obj) {
+//     let value = obj[key];
+// 	let v = String(value); // преобразуем число в строку
+	
+// 	if (v[0] === '1' || v[0] === '2') {
+//             arr.push(value);
+//     	}
+        
+// }
+// console.log(arr);
+
+// 27
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+
+// for (let i = 0; i < arr.length; i++) {
+//     obj[i + 1] = arr[i];
+// }
+// console.log(obj);
+
+// 28
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+
+// for (let i = 0; i < arr.length; i++) {
+//     obj[arr[i]] = i+ 1;
+// }
+// console.log(obj);
