@@ -1217,6 +1217,136 @@
 // 	console.log(i); 
 // }
 
+//148
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = 1; i < arr.length - 1; i++) {
+//     console.log(arr[i]);
+// }
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     console.log(arr[i]);
+// }
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+		
+// for (let i = 0; i < arr.length; i++) {
+// 	console.log(arr[i]);
+// }
+
+// 149
+// let arr = [2, 5, 9, 15, 1, 4];
+// for (let elem of arr) {
+//     if (elem > 3 && elem < 10) {
+//         console.log(elem);
+//     }
+// }
+
+// let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+// for (let key in obj) {
+//         if (obj[key] % 2 !=0) {
+//             console.log(obj[key]);
+//         }
+//     }
+
+// let res = 0;
+
+// for (let i = 2; i <= 100; i++) {
+//     if (i % 2 == 0)
+// 	res += i;
+// }
+
+// console.log(res);
+
+// let res = 0;
+
+// for (let i = 1; i <= 99; i++) {
+//     if (i % 2 != 0)
+// 	res += i;
+// }
+
+// console.log(res);
+
+// let res = 1;
+
+// for (let i = 1; i <= 20; i++) {
+//     res *= i;
+// }
+
+// console.log(res);
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+
+// for (let elem of arr) {
+// 	res += elem;
+// }
+
+// console.log(res); 
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+
+// for (let elem of arr) {
+//     if (elem % 2 == 0) {
+//         res += elem;
+//     }
+// }
+
+// console.log(res); 
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 1;
+// for (let elem of arr) {
+//      res *= elem;
+// }
+    
+//console.log(res); 
+
+// let str = '';
+
+// for (let i = 0; i < 5; i++) {
+//         str += '-';
+// }
+    
+// console.log(str); 
+
+// let str = '';
+
+// for (let i = 1; i <= 9; i++) {
+// 	str += i;
+// }
+
+// console.log(str);
+
+// let str = '';
+
+// for (let i = 9; i >= 1; i--) {
+// 	str += i;
+// }
+
+// console.log(str);
+
+
+// let str = '';
+
+// for (let i = 1; i <= 9; i++) {
+// 	str += '-' + i;
+// }
+
+// console.log(str);
+
+// for (let i = 10; i <= 1000; i++) {
+// 	let str = String(i); 
+// 	console.log(str[0]);
+// }
+
+
 //////////////////////////////////////////практика 167
 
 // 1
@@ -1310,17 +1440,12 @@
 
 
 // 11
-// function factorial(number) {
-//     let result = 1;
-    
-//     for (let i = 1; i <= number; i++) {
-//        result *= i;
-//     }
-    
-//     return result;
+//  let arr = [1, 2, 3, 4, 5];
+//  let res = 1;
+//  for (let elem of arr) {
+//      res = res * elem;
 //  }
- 
-//  console.log(factorial(5)); 
+//  console.log(res);
 
 // 12
 
@@ -1496,7 +1621,7 @@
 
 // for (let key in obj) {
 //     let value = obj[key];
-// 	let v = String(value); // преобразуем число в строку
+// 	let v = String(value);
 	
 // 	if (v[0] === '1' || v[0] === '2') {
 //             arr.push(value);
@@ -1522,3 +1647,133 @@
 //     obj[arr[i]] = i+ 1;
 // }
 // console.log(obj);
+
+//многомерные массивы
+// let arr = [
+// 	['a', 'b', 'c'],
+// 	['d', 'e', 'f'],
+// 	['g', 'h', 'i'],
+// 	['j', 'k', 'l'],
+// ];
+// console.log(arr [3][2]);
+// console.log(arr [1][1]);
+// console.log(arr [2][0]);
+// console.log(arr [0][0]);
+
+// let arr = [[1, 2], [3, 4], [5, 6]];
+// let sum = arr [0][0] + arr [0][1] + arr [1][0] + arr [1][1] + arr [2][0] + arr [2][1];
+// console.log(sum);
+
+// let arr = [
+// 	[
+// 		[1, 2],
+// 		[3, 4],
+// 	],
+// 	[
+// 		[5, 6],
+// 		[7, 8],
+// 	],
+// ];
+
+// let sum = arr [0][0][0] + arr [0][0][1] + arr [0][1][0] + arr [0][1][1] + arr [1][0][0] + arr [1][0][1] + arr [1][1][0] + arr [1][1][1];
+// console.log(sum);
+
+// let arr = [
+//     [1, 2, 3, 
+//         [
+//             4, 
+//             5,
+//             [6, 7]
+//         ]
+//     ],
+    
+//     [
+//         8, 
+//         [9, 10]
+//     ]
+// ];
+
+// let sum = arr [0][0] + arr [0][1] + arr [0][2] + arr [0][3][0] + arr [0][3][1] + arr [0][3][2][0] + arr [0][3][2][1] + arr[1][0] + arr [1][1][0] + arr [1][1][1];
+// console.log(sum);
+
+// let arr = [[1, 2, 3], [4, 5], [6]];
+// let sum = 0;
+// for (let subArr of arr) {
+// 	for (let elem of subArr) {
+// 		sum +=elem;
+// 	}
+// }
+// console.log(sum);
+
+// let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+// let sum = 0;
+// for (let subArr of arr) {
+// 	for (let elem of subArr) {
+//         for (let l of elem) {
+//             sum += l;
+//         }
+		
+// 	}
+// }
+// console.log(sum);
+
+// let arr = [[1, 2, 3], [4, 5], [6]];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+// 	for (let j = 0; j < arr[i].length; j++) {
+// 		sum += arr[i][j];
+// 	}
+// }
+// console.log(sum);
+
+// let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+// 	for (let j = 0; j < arr[i].length; j++) {
+//         for (let k = 0; k < arr[j].length; k++){
+// 		    sum += arr[i][j][k];
+//         }
+// 	}
+// }
+// console.log(sum);
+
+// let arr = [];
+
+// for (let i = 0; i < 3; i++) {
+// 	arr[i] = []; // создаем подмассив
+	
+// 	for (let j = 0; j < 5; j++) {
+// 		arr[i].push(j + 1); // заполняем подмассив числами
+// 	}
+// }
+
+// console.log(arr);
+
+// let arr = [];
+
+// for (let i = 0; i < 3; i++) {
+// 	arr[i] = []; // создаем подмассив
+	
+// 	for (let j = 0; j < 4; j++) {
+// 		arr[i].push('x'); // заполняем подмассив числами
+// 	}
+// }
+
+// console.log(arr);
+
+// let arr = [];
+
+// for (let i = 0; i < 2; i++) {
+// 	arr[i] = []; // создаем подмассив
+	
+// 	for (let j = 0; j < 3; j++) {
+// 		arr[j] = []; 
+//         for (let k = 0; k < 5; k++) {
+//             arr[j].push(k + 1); // заполняем подмассив числами
+//         }
+// 	}
+
+// }
+
+// console.log(arr);
+
