@@ -2519,3 +2519,609 @@
 // students.group4.subgroup11.push('student211', 'student211');
 
 // console.log(students);
+
+//184
+// console.log(Math.pow(2, 10));
+
+// console.log(Math.sqrt(245));
+
+// let arr = [4, 2, 5, 19, 13, 0, 10];
+// let sum = 0;
+// for (let elem of arr) {
+//     sum += Math.pow(elem, 3);
+// }
+// console.log(Math.sqrt(sum));
+
+// let num = Math.sqrt(379);
+// console.log(Math.round(num));
+// console.log(num.toFixed(1));
+// console.log(num.toFixed(2));
+
+// let num = Math.sqrt(587);
+// let obj = {};
+// let ceil = Math.ceil(num);
+// let floor = Math.floor(num);
+
+// obj['ceil'] = ceil;
+// obj['floor'] = floor;
+// console.log(obj);
+
+// console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
+// console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// console.log(getRandomInt(1, 100));
+
+// let arr = [];
+// for (let i = 0; i < 10; i++) {
+//     arr.push(Math.floor(Math.random() * 100) + 1);
+// }
+// console.log(arr);
+
+// let a = 10;
+// let b = 100;
+// let sum = a - b;
+// console.log(Math.abs(sum));
+
+// let str = 'js';
+// console.log(str.toUpperCase());
+
+// let str = 'JS'
+// console.log(str.toLowerCase());
+
+// let str = 'я учу javascript!';
+// console.log(str.substr(2, 14));
+
+
+// let str = 'я учу javascript!';
+// console.log(str.substring(2, 16));
+
+// let str = 'я учу javascript!';
+// console.log(str.slice(2, 16));
+
+// let str = 'ddddd'.startsWith('http://');
+// console.log(str);
+
+// let str = 'abcde';
+// let res = str.endsWith('.html');
+
+// console.log(res);
+
+// let str = '1-2-3-4-5';
+// while (str.includes('-')) {
+// 	str = str.replace('-', '.');
+// }
+
+// console.log(str);
+
+// let str = '1-2-3-4-5';
+// console.log(str.split('-'));
+
+// let str = '12345';
+// console.log(str.split(''));
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.join('-'));
+
+// let arr = [1, 2, 3];
+// console.log(arr.shift());
+// console.log(arr.pop());
+// arr.push(4, 5, 6);
+// console.log(arr);
+// arr.unshift(4, 5, 6);
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.slice(0, 3));
+
+// let arr = [1, 2, 3, 4, 5];
+// let s = arr.slice(3, 5);
+// console.log(s);
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.splice(1,2);
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.splice(3, 0, 'a', 'b', 'c');
+// console.log(arr);
+
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.splice(1, 0, 'a', 'b');
+// arr.splice(6, 0, 'c');
+// arr.splice(8, 0, 'e');
+
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.includes(3)); 
+
+// let obj = {a: 1, b: 2, c: 3};
+// console.log(Object.keys(obj));
+
+
+
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum); 
+
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let prod = 1;
+// for (let digit of arr) {
+// 	prod *= digit;
+// }
+
+// console.log(prod);
+
+// function name() {
+//     console.log('Анна');
+// }
+// name();
+
+// function summ() {
+//     let sum = 0;
+
+//     for (let i = 1; i < 100; i++) {
+//         sum += i;
+//     }
+//     console.log(sum);
+// }
+// summ();
+
+// function fun(num) {
+//     console.log(num ** 3);
+// }
+// fun(2);
+
+// function fun(num) {
+//     if (num%2==0) {
+//         console.log('+++');
+//     } else {
+//         console.log('---');
+
+//     }
+// }
+// fun(5);
+
+// function fun(num1, num2, num3) {
+//     console.log(num1 + num2 + num3);
+// }
+// fun(1, 2, 3);
+
+// function func() {
+//     let param1 = 1;
+//     let param2 = 2;
+//     let param3 = 3;
+//     console.log(param1 + param2 + param3);
+
+// }
+// func();
+
+// function fun(num) {
+//     return num ** 3;
+// }
+// let res = fun(3);
+
+// function fun(num) {
+//     return Math.sqrt(num);
+// }
+// console.log(fun(3) + fun(4));
+
+// function sqrt(num) {
+// 	return Math.sqrt(num);
+// }
+
+// function round(num) {
+// 	return num.toFixed(3);
+// }
+
+// console.log(round(sqrt(2)));
+
+// function sqrt(num) {
+// 	return Math.sqrt(num);
+// }
+
+// function sum(num1, num2, num3) {
+// 	return num1 + num2 + num3;
+// }
+// let res = sum(sqrt(2), sqrt(3), sqrt(4));
+// console.log(res);
+
+
+// function sqrt(num) {
+// 	return Math.sqrt(num);
+// }
+
+// function sum(num1, num2, num3) {
+// 	return num1 + num2 + num3;
+// }
+
+// function round(num) {
+// 	return num.toFixed(3);
+// }
+// let res = round(sum(sqrt(2), sqrt(3), sqrt(4)));
+// console.log(res);
+
+// function func(num) {
+// 	let sum = 0;
+	
+// 	for (let i = 1; i <= num; i++) {
+// 		sum += i;
+// 	}
+//     return sum;
+
+// }
+
+
+// console.log( func(5) );
+
+// function func(num) {
+//     let sum = 0;
+// 	while (num >= 10) {
+// 		num /= 2;
+// 		sum++;
+// 	}
+//         return sum; 
+// }
+
+// let res = func(100);
+// console.log(res);
+
+// function func(num1, num2) {
+	
+// 	if (num1 > 0 && num2 > 0) {
+//     return num1 * num2;
+// 	} else {
+// 		return num1 - num2;
+// 	}
+// }
+
+// console.log(func(3, 4));
+
+// function fun(arr) {	
+// 	for (let elem of arr) {
+// 		if (elem%2==0) {
+// 			return false;
+// 		}
+// 	}
+	
+// 	return true;
+// }
+// console.log(fun([1, 2, 4]));
+
+// function fun(num) {
+//     let num1 = String(num);
+//     for (let elem of num1) {
+//         if (Number(num1[elem]) %2==0) {
+//             return false;
+//         } 
+//     }
+//     return true;
+    
+// }
+// console.log(fun(133));
+
+
+// function fun(arr) {
+//     for (let i = 0; i < arr.length - 1; i++) {
+//         if (arr[i] === arr[i + 1]) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+// console.log(fun([1, 3, 2, 5]));
+
+// function func(a, b) {
+// 	return a == b;
+// }
+
+// function func(a, b) {
+// 	return a != b;
+// }
+
+// function func(a, b) {
+// 	return a + b >= 10;
+// }
+
+// function func(num) {
+// 	return num >= 0; 
+// }
+
+// 213 
+// function calcSum(arr) {
+// 	let sum = 0;
+	
+// 	for (let elem of arr) {
+// 		sum += elem;
+// 	}
+	
+// 	return sum;
+// }
+// console.log(calcSum([1, 2, 3]));
+
+
+// function func(arr1, arr2) {
+// 	let res1 = 0;
+	
+// 	for (let elem of arr1) {
+// 		res1 += elem;
+// 	}
+	
+// 	let res2 = 0;
+	
+// 	for (let elem of arr2) {
+// 		res2 += elem;
+// 	}
+	
+// 	return res1 / res2;
+// }
+
+// function getSum(arr) {
+// 	let sum = 0;
+	
+// 	for (let elem of arr) {
+// 		sum += elem;
+// 	}
+	
+// 	return sum;
+// }
+
+//214
+// function func1() {
+// 	return 3;
+// }
+// function func2() {
+// 	return 5;
+// }
+
+// console.log( func1() + func2() );
+
+// function sum(arr) {
+// 	let res = 0;
+	
+// 	for (let elem of arr) {
+// 		res += elem;
+		
+// 	}
+//     return res;
+// }
+
+// console.log(sum([1, 2, 3, 4, 5]));
+
+// let arr = [1, 2, 3, 4, 5];
+
+// function func(arr) {
+// 	let res = 0;
+	
+// 	for (let elem of arr) {
+// 		res += elem;
+// 	}
+	
+// 	console.log(res);
+// }
+// func(arr);
+
+// function func1() {
+// 	return 3;
+// }
+// function func2() {
+// 	return 5;
+// }
+
+// console.log( func1() + func2() );
+
+// function sum(arr) {
+// 	let sum1 = 0;
+	
+// 	for (let elem of arr) {
+// 		sum1 += elem;
+// 	}
+	
+// 	return sum1;
+// }
+// let res = sum([1, 2, 3, 4, 5]);
+// console.log(res);
+
+// function sum(arr) {
+// 	let sum1 = 0;
+	
+// 	for (let elem of arr) {
+// 		sum1 += elem;
+// 	}
+//     return sum1;
+// }
+// let res = sum([1, 2, 3, 4, 5]);
+// console.log(res);
+
+// function add(num) {
+// 	if (num <= 9) {
+// 		return '0' + num;
+// 	} else {
+//         return num;
+//     }
+// }
+// console.log(add(4));
+
+// function sum(arr) {
+// 	let res = 0;
+	
+// 	for (let elem of arr) {
+// 		res += elem;
+// 	}
+	
+// 	return res;
+// }
+// let arr = [1, 2, 3, 4, 5];
+// let sum1 = sum(arr);
+// console.log(sum1);
+
+// function getDigitsSum(num) {
+//     let str = String(num);
+// 	let arr = str.split('');
+// 	let sum = 0;
+	
+// 	for (let elem of arr) {
+// 		sum += Number(elem);
+// 	}
+	
+// 	return sum;
+// }
+// let num = 12345;
+// let res = getDigitsSum(num);
+// console.log(res);
+
+
+// function isPrime(num) {
+// 	for (let i = 2; i < num; i++) {
+// 		if (num % i === 0) {
+// 			return false;
+// 		} 
+		
+// 	}
+//     return true;
+		
+// }
+
+// console.log(isPrime(13)); // должен вывести true
+
+//215
+// function calcSum(arr) {
+// 	let sum = 0;
+	
+// 	for (let elem of arr) {
+// 		sum += elem;
+// 	}
+//     return sum;
+// }
+// console.log(calcSum([1,2,3]));
+
+// function func(num) {
+//     let del = [];
+//     for (let i = 1; i <= num; i++) {
+//         if (num % i === 0) {
+//             del.push(i);
+//         }
+//     }
+//     return del;
+// }
+  
+// console.log(func(12)); 
+  
+// function func(str) {
+//     return str.split('');
+// }
+// console.log(func('fffkkk')); 
+
+// function func(str) {
+//     return str.split('').reverse().join('');
+// }
+// console.log(func('fffkkk')); 
+
+// function func(str) {
+//     return str.slice(0, 1).toUpperCase() + str.slice(1);
+// }
+// console.log(func('fffkkk')); 
+
+// function func(str) {
+//     str = str.toLowerCase().split(' ');
+//     for (let i = 0; i < str.length; i++) {
+//         str[i] = str[i][0].toUpperCase() + str[i].substr(1);
+//     }
+//     return str.join(' ');
+// }
+
+// console.log(func("fff fff hhh"));
+
+// function func(n) {
+//     let arr = [];
+//     for (let i = 1; i <= n; i++) {
+//       arr.push(i);
+//     }
+//     return arr;
+// }
+  
+// console.log(func(5));
+
+// function func(num) {
+//     let sum = 0;
+//     let arr = String(num).split('');
+//     for (let elem of arr) {
+//         sum += Number(elem);
+//     }
+//     return sum;
+// }
+
+// console.log(func(15));
+
+// function func(year) {
+//     if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//       return 'високосный год';
+//     } else {
+//       return 'не високосный год';
+//     }
+// }
+
+// function func(seconds) {
+//     let day = 86400;
+//     return Math.floor(seconds / day); 
+// }
+
+// function func(arr) {
+//     let random = Math.floor(Math.random() * arr.length);
+//     return arr[random];
+// }
+  
+// function func(num) {
+    
+//     for (let i = 2; i < num; i++) {
+//       if (num % i === 0) {
+//         return 'не простое';
+//       }
+//     }
+    
+//     return 'простое';
+// }
