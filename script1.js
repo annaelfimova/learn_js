@@ -1346,6 +1346,186 @@
 // 	console.log(str[0]);
 // }
 
+//166
+
+// for (let i = 0; i <= 10; i++) { 
+// 	console.log(i);
+// } 
+
+
+// for (let i = 10; i >= 0; i--) { 
+// 	console.log(i);
+// }
+
+// for (let i = 10; i >= 0; i--) { 
+//     console.log(i);
+// }
+  
+// let i = 0;
+
+// while (i <= 10) { 
+//   console.log(i);
+//   i++;
+// }
+
+// let res = 0; 
+
+// for (let i = 1; i <= 10; i++) {
+//   res += i;
+// }
+
+// console.log(res);
+
+// let res = 1; 
+
+// for (let i = 1; i <= 10; i++) {
+//   res *= i;
+// }
+
+// console.log(res); 
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let elem of arr) {
+// 	sum += Number(elem);
+// }
+
+// console.log(sum); 
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0; 
+
+// for (let elem of arr) {
+//   sum += +elem;
+// }
+
+// console.log(sum); 
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let elem of arr) {
+//   sum += +elem; 
+// }
+
+// console.log(sum); 
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   sum += +arr[i];
+// }
+
+// console.log(sum); 
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) { 
+//   sum += +arr[i];
+// }
+
+// console.log(sum); 
+
+// let arr = ['1', '2', '3', '4', '5']; 
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   sum += +arr[i];  
+// }
+
+// console.log(sum); 
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = arr[i] ** 2; 
+// }
+
+// console.log(arr); 
+
+// let arr = []; 
+
+// for (let i = 1; i <= 5; i++) {
+//   arr.push(i);
+// }
+
+// console.log(arr); 
+
+// let obj = {a: 1, b: 2, c: 3};
+// let sum = 0;
+
+// for (let key in obj) {
+//   sum += obj[key]; 
+// }
+
+// console.log(sum);
+
+
+// let obj = {a: 1, b: 2, c: 3};
+// let sum = 0;
+
+// for (let key in obj) {
+//   sum += obj[key]; 
+// }
+
+// console.log(sum);
+
+// let arr = [1, 2, 3, 4, 5];
+// let res = ''; 
+
+// for (let elem of arr) {
+//   if (elem === 3) {
+//     res = '+++';
+//     break;  
+//   } else {
+//     res = '---';
+//   }
+// }
+
+// console.log(res);
+
+// let arr = []; 
+
+// for (let i = 1; i <= 5; i++) {
+//   arr.push(i);
+// }
+
+// console.log(arr); 
+
+// let arr = [1, 2, 3, 4, 5];
+// let res = false;
+
+// for (let elem of arr) {
+//   if (elem === 3) {
+//     res = true; 
+//     break;
+//   }
+// }
+
+// console.log(res); 
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let elem of arr) {
+//   if (elem % 2 === 0) { 
+//     console.log(elem);
+//   }
+// }
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let res = [];
+
+// for (let elem of arr) {
+//   if (elem % 2 !== 0) {
+//     res.push(elem);
+//   }
+// }
+
+// console.log(res);
 
 //////////////////////////////////////////практика 167
 
@@ -3029,6 +3209,7 @@
 // console.log(isPrime(13)); // должен вывести true
 
 //215
+
 // function calcSum(arr) {
 // 	let sum = 0;
 	
@@ -3125,3 +3306,357 @@
     
 //     return 'простое';
 // }
+
+//223
+
+// function func() {
+// 	return '!';
+// }
+
+// console.log(func); // увидим код функции
+
+//224
+
+// function func() {
+// 	return 'fff';
+// }
+
+// function func() {
+// 	return 'fff';
+// }
+// console.log(func()); 
+
+// function func() {
+// 	return 'fff';
+// }
+// console.log(func); 
+
+// function func() {
+// 	return 'fff';
+// }
+// func = 123; 
+// console.log(func); 
+
+//225
+
+// function func1(){
+//     return 3;
+// }
+// let func2 = func1;
+// console.log(func1() + func2());
+
+//226
+
+// let func1 = function() {
+//     return 1;
+// }
+// let func2 = function() {
+//     return 2;
+// }
+// alert (func1() + func2())
+
+//229
+
+// func();
+// function func() {
+// 	console.log('!');
+// }
+// func(); 
+// let func = function() {
+// 	console.log('!');
+// };
+
+//230
+
+// let func1 = function() {console.log('!')};
+// let func2 = function() {
+// 	console.log('!')
+// };
+// function func3() {
+// 	console.log('!')
+// }
+
+//237
+
+// let arr = [
+//     function() {return 1},
+//     function() {return 2},
+//     function() {return 3},
+// ];
+// console.log(arr[2]());
+// console.log(arr[0]() + arr[1]() + arr[2]());
+
+// for (let func of arr) {
+//    console.log(func());
+// }
+
+//238
+
+// let obj = {
+//  func1: function() {return 1},
+//  func2: function() {return 2},
+//  func3: function() {return 3},
+// };
+// console.log(obj.func1() + obj.func2() + obj.func3());
+// for (let key in obj) {
+//     console.log(obj[key]()); 
+// }
+
+//239
+
+// let obj = {
+//     sum: function(arr) {
+//         let sum = 0;
+//         for (let elem of arr) {
+//         sum+=elem;
+//     } return sum; },
+//     square: function(arr) {
+//         let res = 1;
+//         for (let elem of arr) {
+//         res = elem ** 2;
+//     } return res; },
+// 	cube: function(arr) {
+//         let res = 1;
+//         for (let elem of arr) {
+//         res = elem ** 3;
+//     } return res; },
+// }
+// let arr = [1, 2];
+// console.log(obj.sum(arr)); 
+// console.log(obj.square(arr)); 
+// console.log(obj.cube(arr));
+
+//240
+// test (
+//     function() {return 1;},
+//     function() {return 2;},
+//     function() {return 3;},
+// );
+// function test(func1, func2, func3){
+//     console.log(func1() + func2() + func3());
+// }
+
+//241
+
+// function func1() {
+//     return 1;
+// }
+// function func2() {
+//     return 2;
+// }
+// function func3() {
+//     return 3;
+// }
+// function test(func1, func2, func3) {
+//     return func1() + func2() + func3();
+// }
+// console.log(test(func1, func2, func3)); 
+
+// function func1() {
+//     return 1;
+// }
+// function func2() {
+//     return 2;
+// }
+// function func3() {
+//     return 3;
+// }
+// function test(func1, func2, func3) {
+//     return func1() + func2() + func3();
+// }
+// console.log(test(func1, func2, func3)); 
+
+// let func1 = function() {
+//     return 1;
+// };
+// let func2 = function() {
+//     return 2;
+// };
+// let func3 = function() {
+//     return 3;
+// };
+// function test(func1, func2, func3) {
+//     return func1() + func2() + func3();
+// }
+// console.log(test(func1, func2, func3));
+
+// //242
+// function test(func) {
+//  console.log(func(3));
+// }
+// function cube(num) {
+//     return num * num * num;
+// }
+// test(cube);
+
+// let test = function(func) {
+//  console.log(func(3));
+// };
+// function cube(num) {
+//     return num * num * num;
+// }
+// test(cube);
+
+// let test = function(func) {
+//  alert(func(2, 3));
+// }
+// function sum(num1, num2) {
+//     return num1 + num2;
+// }
+// test(sum);
+
+// //243
+// function test(num, func1, func2) {
+//     return func1(num) + func2(num);
+// }
+  
+// function square(num) {
+//     return num * num;
+// }
+  
+// function cube(num) {
+//     return num * num * num;
+// }
+// console.log(test(3, square, cube)); 
+
+// //244
+// function test(arr, func) {
+//  for (let i = 0; i < arr.length; i++) {
+//   arr[i] = func(arr[i]);
+//  }
+ 
+//  return arr;
+// }
+
+// let result = test([8, 2, 5], function(num) {
+//  return num * num * num;
+// });
+
+// console.log(result);
+
+// //245
+// function func(num1, num2) {
+//     function cube(num2) {
+//         return num2 * num2 * num2;
+//     }
+// 	function square(num1) {
+// 		return num1 * num1;
+// 	}
+	
+// 	return square(num1) + cube(num2);
+// }
+
+// console.log(func(2, 3));
+
+// //250
+// function func1() {
+//     return function() {
+//       return 1;
+//     };
+// }
+  
+// function func2() {
+//     return function() {
+//       return 2;
+//     };
+// }
+  
+// let sum = func1()() + func2()();
+// console.log(sum); 
+
+// //251
+// function func() {
+//     return function(){
+//         return function(){
+//             return function() {
+//                 return function() {
+//                     return '!';
+//                 };
+//             };
+//         };
+//     };
+// }
+
+// console.log( func()()()()() );
+
+// //252
+// function func(num1) {
+//     return function (num2){
+//         return function(num3) {
+//             return num1 + num2 + num3;
+//         };
+//     };
+// }
+
+// console.log( func(2)(3)(4) );
+
+// 
+// function func(x) {
+//     return function(y) {
+//         return function(z) {
+//             return function(w) {
+//                 return [x, y, z, w];
+//             };
+//         };
+//     };
+// }
+// const result = func(2)(3)(4)(5);
+// console.log(result); 
+
+// //253
+// function each(arr, callback) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       result.push(callback(arr[i]));
+//     }
+//     return result;
+// }
+// let array = [1, 2, 3, 4, 5];
+// let resultarr = each(array, function(num) {
+// 	return num * 2;
+// });
+
+// console.log(resultarr);
+
+// function each(arr, callback) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       result.push(callback(arr[i]));
+//     }
+//     return result;
+// }
+// let string = [ "world", "Hellow"];
+// let resultstr = each(string, function(str) {
+// 	return str.split('').reverse().join('');
+// });
+// console.log(resultstr);
+
+// function each(arr, callback) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       result.push(callback(arr[i]));
+//     }
+//     return result;
+// }
+// let string = [ "world", "hellow"];
+// let resultstr = each(string, function(str) {
+// 	return str.slice(0, 1).toUpperCase() + str.slice(1);
+// });
+// console.log(resultstr);
+
+// //254
+// function each(arr, callback) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         result.push(callback(arr[i]));
+//     }
+//     return result;
+// }
+// function cube(num) {
+// 	return num ** 3;
+// }
+// let resultarr = each([1, 2, 3, 4, 5], cube);
+// console.log(resultarr);
+
+//256
+// let result = filter([1, 2, 3, 4, 5], elem => elem > 0);
