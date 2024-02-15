@@ -3660,3 +3660,83 @@
 
 //256
 // let result = filter([1, 2, 3, 4, 5], elem => elem > 0);
+
+//261
+
+// function test() {
+//     let num = 1;
+//     return function() {
+//         console.log(num);
+//         num++;
+//     };
+// }
+
+// function test() {
+//     let num = 10;
+//     return function() {
+//         console.log(num);
+//         num--;
+//     };
+// }
+// let func = test(); 
+// func();  
+// func();  
+
+// function test() {
+//     let num = 10;
+//     return function() {
+//         if (num>0) {
+//             console.log(num);
+//             num--;
+//         } else {
+//             console.log('Отсчет окончен');
+//         }
+//     };
+// }
+// let func = test(); 
+// func();  
+// func();  
+
+//269
+// (function() {
+// 	return function() {
+//         console.log('!');
+//     }
+// })()()();
+
+// (function(num1) {
+// 	return function(num2){
+//         console.log(num1 + num2);
+//     }
+// })(1)(2);
+
+// (function(num1) {
+// 	return function(num2){
+//         return function(num3) {
+//             console.log(num1 + num2 + num3);
+//         }
+//     }
+// })(1)(2)(3);
+
+// let func = (function(){
+//     let num = 1;
+//     return function(){
+//         if (num<6){
+//             console.log(num);
+//         } else {
+//             num = 1;
+
+//             console.log(num);
+//         }        num++;        
+
+//         }   
+    
+// })();
+
+
+// func(); 
+// func(); 
+// func(); 
+// func(); 
+// func(); 
+// func(); 
