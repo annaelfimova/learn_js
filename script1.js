@@ -3989,3 +3989,210 @@
 // let result = func(1, 2, 3);
 // console.log(result); 
 
+//296
+// let arr = ['John', 'Smit', 'development', 'programmer', 2000];
+// let [name, surname, department, position, salary] = arr;
+
+//297
+// function func() {
+// 	return ['John', 'Smit', 'development', 'programmer', 2000];
+// }
+// let [name, surname, department, position, salary] = func();
+
+//298
+// let arr = ['John', 'Smit', 'development', 'programmer', 2000];
+// let [, , department, position,] = arr;
+
+//300
+// let arr = ['John', 'Smit', 'development', 'programmer', 2000];
+// let [name, surname, ...info] = arr;
+
+//301
+// let arr = ['John', 'Smit', 'development', 'programmer'];
+// let [name, surname, department, position = 'trainee'] = arr;
+
+//302
+// let arr = [ , , ];
+// function funcy() {
+// 	return (new Date).getFullYear();
+// }
+// function funcm() {
+// 	return (new Date).getMonth();
+// }
+// function func() {
+// 	return (new Date).getDate();
+// }
+// let [year = funcy(), month = funcm(), day = func()] = arr;
+
+// console.log(year, month, day);
+
+//304
+// let options = {
+// 	color: 'red',
+// 	width:  400,
+// 	height: 500,
+// };
+
+// let {color, width, height} = options;
+
+//305
+// let options = {
+// 	color: 'red',
+// 	width:  400,
+// 	height: 500,
+// };
+// let {color: c, width: w, height: h} = obj;
+
+//306
+// let options = {
+// 	width:  400,
+// 	height: 500,
+// };
+
+// let {color = 'black', width, height} = options;
+
+//307
+// let options = {
+// 	width:  400,
+// 	height: 500,
+// };
+// let {color:c = 'black', width, height} = options;
+
+
+//309.1
+// func( ['John', 'Smit', 'development', 'programmer', 2000] );
+// function func([name, surname, department, position, salary]) {
+// console.log(department);
+// console.log(position);
+// console.log(name);
+// console.log(surname);
+// console.log(salary);
+// }
+
+//309.2
+// func( ['John', 'Smit', 'development', 'programmer', 2000] );
+// function func([name, surname, ...info]) {
+// console.log(name);
+// console.log(surname);
+// console.log(info);
+// }
+
+//309.3
+// func( ['John', 'Smit', 'development'] );
+// function func([name, surname, department, position = 'джуниор']) {
+// console.log(name);
+// console.log(surname);
+// console.log(department);
+// console.log(position);
+// }
+
+//309.4
+// func('development', ['John', 'Smit'], [2018, 12, 31] );
+// function func(department, [name, surname], [year, month, day]) {
+// console.log(department);
+
+// console.log(name);
+// console.log(surname);
+
+// console.log(year);
+// console.log(month);
+// console.log(day);
+// }
+
+//310.1
+// function func({color, width, height}) {
+// console.log(color);
+// console.log(width);
+// console.log(height);
+// }
+
+// func( {color: 'red', width: 400, height: 500} );
+
+//310.2
+// function func({color = 'black', width, height}) {
+//     console.log(color);
+//     console.log(width);
+//     console.log(height);
+// }
+
+// func( {color: 'red', width: 400, height: 500} );
+
+//311
+// let date = new Date();
+
+// console.log(date.getFullYear()); 
+// console.log(date.getMonth());    
+// console.log(date.getDate());     
+
+//312
+// function addZero(num) {
+//     if (num >= 0 && num <= 9) {
+//         return '0' + num;
+//     } else {
+//         return num;
+//     }
+//     }
+//     let date = new Date();
+    
+//     console.log(
+//     addZero(date.getHours()) + ':' +
+//     addZero(date.getMinutes()) + ':' +
+//     addZero(date.getSeconds()) + ' ' +
+//     addZero(date.getDate()) + '.' +
+//     addZero(date.getMonth() + 1) + '.' +
+//     addZero(date.getFullYear()) 
+    
+// );
+    
+// //313
+// let str = '2025-12-31';
+// let res = str.split('-').reverse().join('.');
+
+// console.log(res); 
+
+//314
+// let date = new Date();
+// console.log(date.getDay());
+
+// let date = new Date(); 
+// if (date.getDate() == 0 || date.getDate() == 0) {
+//     console.log('выходной');
+// } else {
+//     console.log('будний');
+// }
+
+// let date = new Date();
+// let today = date.getDay();
+// console.log(6 - today);
+
+//315
+// let date = new Date();
+// let day  = date.getDay();
+// let months = [
+// 	'янв', 'фев', 'мар', 'апр', 'май', 'июн',
+// 	'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'
+// ];
+// console.log(months[day]);
+
+//316
+// let date = new Date(2023, 7, 24);
+// let day  = date.getDay();
+// let days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+
+// console.log(days[day]);
+
+//317
+// let date = new Date(2025, 1, 1, 23, 59, 59);
+// console.log(date.getTime());
+
+//318.1
+// let now = new Date(1988, 3, 1, 23, 59, 59);
+// let date = new Date(2000, 1, 10, 23, 59, 59);
+// let diff = date.getTime() - now.getTime();
+// console.log(diff / (1000 * 60 * 60 * 24));
+
+//318.2
+// let now = new Date();
+// let date = new Date(2006, 2, 12, 23, 59, 59);
+// let diff = now.getTime() - date.getTime();
+// console.log(diff / (1000 * 60 * 60 * 24 * 30));
