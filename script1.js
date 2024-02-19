@@ -3739,4 +3739,253 @@
 // func(); 
 // func(); 
 // func(); 
-// func(); 
+// func();
+
+//274
+// function func(arr) {
+// 	console.log(arr.shift());
+	
+// 	if (arr.length != 0) {
+// 		func(arr);
+// 	}
+// }
+
+// func([1, 2, 3, 4, 5]);
+
+//275
+// function getSum(arr) {
+// 	let sum = arr.shift()**2;
+	
+// 	if (arr.length !== 0) {
+// 		sum += getSum(arr);
+// 	}
+	
+// 	return sum;
+// }
+
+// console.log(getSum([1, 2, 3, 4, 5]));
+
+//276
+
+// function func(obj) {
+// 	for (let key in obj) {
+// 		if (typeof obj[key] == 'object') {
+// 			func(obj[key]);
+// 		} else {
+// 			console.log(obj[key]);
+// 		}
+// 	}
+// }
+
+// func({a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}});
+
+// function func(arr) { //////////////////////////////////////////////////////////////////////////////////////////
+//     let arr1 = [];
+
+// 	for (let elem of arr) {
+// 		if (typeof elem == 'object') {
+// 			arr1.push(func(arr1[elem]));
+// 		} else {
+//             arr1.push(arr1[elem]);
+
+// 		}    return arr1;
+
+// 	}
+// }
+
+// console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
+
+// function func(arr) {
+// let arr1 = [];
+
+// for (let elem of arr) {
+//   if (typeof elem == 'object') {
+//     func(elem);
+//   } else {
+//     arr1.push(arr[elem]);
+
+//   }
+//   return arr;
+
+// }
+// }
+
+// console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
+
+//277
+// function func(obj) {
+// 	let sum = 0;
+	
+// 	for (let key in obj) {
+// 		if (typeof obj[key] == 'object') {
+// 			sum += func(obj[key]);
+// 		} else {
+// 			sum += obj[key];
+// 		}
+// 	}
+	
+// 	return sum;
+// }
+
+// console.log(func({a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}}));
+
+// function func(arr) {
+// 	let sum = '';
+	
+// 	for (let elem of arr) {
+// 		if (typeof elem == 'object') {
+// 			sum += func(elem);
+// 		} else {
+// 			sum += elem;
+// 		}
+// 	}
+	
+// 	return sum;
+// }
+
+// console.log(func(['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]));
+
+//278
+// function func(arr) {
+// 	for (let i = 0; i < arr.length; i++) {
+// 		if (typeof arr[i] == 'object') {
+// 			arr[i] = func(arr[i]);
+// 		} else {
+// 			arr[i] = arr[i] * arr[i];
+// 		}
+// 	}
+	
+// 	return arr;
+// }
+
+// console.log(func([1, [2, 7, 8], [3, 4], [5, [6, 7]]]));
+
+//279
+//1
+// let arr = [1, 2, 3];
+
+// let res = arr.map (function (elem) {
+//     return Math.sqrt(elem);
+// });
+// console.log(res);
+
+//2
+// let arr = ['a', 'b', 'c'];
+
+// let res = arr.map (function (elem) {
+//     return elem + '!';
+// });
+// console.log(res);
+
+//3
+// let arr = ['abv', 'b', 'c'];
+
+// let res = arr.map (function (elem) {
+//     return elem.split('').reverse().join('');
+// });
+// console.log(res);
+
+//4
+// let arr = ['123', '456', '789'];
+
+// let res = arr.map (function (elem) {
+//     let str = elem.split('');
+//     return str;
+// });
+// console.log(res);
+
+//5
+// let arr = [1, 2, 3];
+
+// let result = arr.map(function(elem, index) {
+// 	return elem * index;
+// });
+
+// console.log(result); 
+
+//280
+
+// let arr = [1, 2, 3];
+// let sum = 0;
+// let summ = arr.forEach(function(elem) {
+//     let s = elem ** 2;
+//         sum += s;
+// });
+// console.log(sum);
+
+//281
+//1
+// let arr = [1, -1, 2];
+// let res = arr.filter(elem => elem > 0);
+// console.log(res);
+
+//2
+// let arr = [1, -1, 2];
+// let res = arr.filter(elem => elem < 0);
+// console.log(res);
+
+//3
+// let arr = [1, -1, 102];
+// let res = arr.filter(elem => elem > 0 && elem < 10);
+// console.log(res);
+
+//4
+// let arr = ['ssssss', '1', 'dkdkd'];
+// let res = arr.filter(elem => elem.split('').length >= 5);
+// console.log(res);
+
+//5
+// let arr = [10, 1, 100];
+// let res = arr.filter((elem, index) => elem * index < 30);
+// console.log(res);
+
+//6
+// let arr = [1, [1, 2, 5]];
+// let res = arr.filter(elem => typeof elem != 'object');
+// console.log(res);
+
+//282
+// let arr = [1, -1, 2];
+// let res = arr.every(elem => elem > 0);
+// console.log(res);
+
+// let arr = [1, -1, 2];
+// let res = arr.every((elem, index) => elem * index < 30);
+// console.log(res);
+
+//283
+// let arr = [1, -1, 2];
+// let res = arr.some(elem => elem > 0);
+// console.log(res);
+
+// let arr = [1, -1, 2];
+// let res = arr.some((elem, index) => elem * index < 30);
+// console.log(res);
+
+//286
+// let arr = [1, 2, 3, 4, 5];
+
+// function func(num1, num2, num3, num4, num5) {
+// 	return num1 + num2 + num3 + num4 + num5;
+// }
+
+// console.log(func(...arr)); 
+
+//288
+// let arr = [1, 2, 3, 4, 5]
+// let max = Math.min(...arr);
+
+//293
+// function func(...nums) {
+// 	let sum = 0;
+	
+// 	for (let num of nums) {
+// 		sum += num;
+// 	}
+	
+// 	return sum / nums.length;
+// }
+
+// let result = func(1, 2, 3);
+// console.log(result); 
+
