@@ -2730,7 +2730,7 @@
 // console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
 
 // function getRandomInt(min, max) {
-// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// 	console.log( ) Math.floor(Math.random() * (max - min + 1)) + min;
 // }
 
 // console.log(getRandomInt(1, 100));
@@ -2920,46 +2920,46 @@
 // func();
 
 // function fun(num) {
-//     return num ** 3;
+//     console.log( ) num ** 3;
 // }
 // let res = fun(3);
 
 // function fun(num) {
-//     return Math.sqrt(num);
+//     console.log( ) Math.sqrt(num);
 // }
 // console.log(fun(3) + fun(4));
 
 // function sqrt(num) {
-// 	return Math.sqrt(num);
+// 	console.log( ) Math.sqrt(num);
 // }
 
 // function round(num) {
-// 	return num.toFixed(3);
+// 	console.log( ) num.toFixed(3);
 // }
 
 // console.log(round(sqrt(2)));
 
 // function sqrt(num) {
-// 	return Math.sqrt(num);
+// 	console.log( ) Math.sqrt(num);
 // }
 
 // function sum(num1, num2, num3) {
-// 	return num1 + num2 + num3;
+// 	console.log( ) num1 + num2 + num3;
 // }
 // let res = sum(sqrt(2), sqrt(3), sqrt(4));
 // console.log(res);
 
 
 // function sqrt(num) {
-// 	return Math.sqrt(num);
+// 	console.log( ) Math.sqrt(num);
 // }
 
 // function sum(num1, num2, num3) {
-// 	return num1 + num2 + num3;
+// 	console.log( ) num1 + num2 + num3;
 // }
 
 // function round(num) {
-// 	return num.toFixed(3);
+// 	console.log( ) num.toFixed(3);
 // }
 // let res = round(sum(sqrt(2), sqrt(3), sqrt(4)));
 // console.log(res);
@@ -2970,7 +2970,7 @@
 // 	for (let i = 1; i <= num; i++) {
 // 		sum += i;
 // 	}
-//     return sum;
+//     console.log( ) sum;
 
 // }
 
@@ -2983,7 +2983,7 @@
 // 		num /= 2;
 // 		sum++;
 // 	}
-//         return sum; 
+//         console.log( ) sum; 
 // }
 
 // let res = func(100);
@@ -2992,9 +2992,9 @@
 // function func(num1, num2) {
 	
 // 	if (num1 > 0 && num2 > 0) {
-//     return num1 * num2;
+//     console.log( ) num1 * num2;
 // 	} else {
-// 		return num1 - num2;
+// 		console.log( ) num1 - num2;
 // 	}
 // }
 
@@ -3003,11 +3003,11 @@
 // function fun(arr) {	
 // 	for (let elem of arr) {
 // 		if (elem%2==0) {
-// 			return false;
+// 			console.log( ) false;
 // 		}
 // 	}
 	
-// 	return true;
+// 	console.log( ) true;
 // }
 // console.log(fun([1, 2, 4]));
 
@@ -3015,10 +3015,10 @@
 //     let num1 = String(num);
 //     for (let elem of num1) {
 //         if (Number(num1[elem]) %2==0) {
-//             return false;
+//             console.log( ) false;
 //         } 
 //     }
-//     return true;
+//     console.log( ) true;
     
 // }
 // console.log(fun(133));
@@ -3027,28 +3027,28 @@
 // function fun(arr) {
 //     for (let i = 0; i < arr.length - 1; i++) {
 //         if (arr[i] === arr[i + 1]) {
-//             return true;
+//             console.log( ) true;
 //         }
 //     }
-//     return false;
+//     console.log( ) false;
 // }
 
 // console.log(fun([1, 3, 2, 5]));
 
 // function func(a, b) {
-// 	return a == b;
+// 	console.log( ) a == b;
 // }
 
 // function func(a, b) {
-// 	return a != b;
+// 	console.log( ) a != b;
 // }
 
 // function func(a, b) {
-// 	return a + b >= 10;
+// 	console.log( ) a + b >= 10;
 // }
 
 // function func(num) {
-// 	return num >= 0; 
+// 	console.log( ) num >= 0; 
 // }
 
 // 213 
@@ -3059,7 +3059,7 @@
 // 		sum += elem;
 // 	}
 	
-// 	return sum;
+// 	console.log( ) sum;
 // }
 // console.log(calcSum([1, 2, 3]));
 
@@ -3077,7 +3077,7 @@
 // 		res2 += elem;
 // 	}
 	
-// 	return res1 / res2;
+// 	console.log( ) res1 / res2;
 // }
 
 // function getSum(arr) {
@@ -3087,15 +3087,15 @@
 // 		sum += elem;
 // 	}
 	
-// 	return sum;
+// 	console.log( ) sum;
 // }
 
 //214
 // function func1() {
-// 	return 3;
+// 	console.log( ) 3;
 // }
 // function func2() {
-// 	return 5;
+// 	console.log( ) 5;
 // }
 
 // console.log( func1() + func2() );
@@ -3107,7 +3107,7 @@
 // 		res += elem;
 		
 // 	}
-//     return res;
+//     console.log( ) res;
 // }
 
 // console.log(sum([1, 2, 3, 4, 5]));
@@ -3126,10 +3126,10 @@
 // func(arr);
 
 // function func1() {
-// 	return 3;
+// 	console.log( ) 3;
 // }
 // function func2() {
-// 	return 5;
+// 	console.log( ) 5;
 // }
 
 // console.log( func1() + func2() );
@@ -3141,7 +3141,7 @@
 // 		sum1 += elem;
 // 	}
 	
-// 	return sum1;
+// 	console.log( ) sum1;
 // }
 // let res = sum([1, 2, 3, 4, 5]);
 // console.log(res);
@@ -3152,16 +3152,16 @@
 // 	for (let elem of arr) {
 // 		sum1 += elem;
 // 	}
-//     return sum1;
+//     console.log( ) sum1;
 // }
 // let res = sum([1, 2, 3, 4, 5]);
 // console.log(res);
 
 // function add(num) {
 // 	if (num <= 9) {
-// 		return '0' + num;
+// 		console.log( ) '0' + num;
 // 	} else {
-//         return num;
+//         console.log( ) num;
 //     }
 // }
 // console.log(add(4));
@@ -3173,7 +3173,7 @@
 // 		res += elem;
 // 	}
 	
-// 	return res;
+// 	console.log( ) res;
 // }
 // let arr = [1, 2, 3, 4, 5];
 // let sum1 = sum(arr);
@@ -3188,7 +3188,7 @@
 // 		sum += Number(elem);
 // 	}
 	
-// 	return sum;
+// 	console.log( ) sum;
 // }
 // let num = 12345;
 // let res = getDigitsSum(num);
@@ -3198,11 +3198,11 @@
 // function isPrime(num) {
 // 	for (let i = 2; i < num; i++) {
 // 		if (num % i === 0) {
-// 			return false;
+// 			console.log( ) false;
 // 		} 
 		
 // 	}
-//     return true;
+//     console.log( ) true;
 		
 // }
 
@@ -3216,7 +3216,7 @@
 // 	for (let elem of arr) {
 // 		sum += elem;
 // 	}
-//     return sum;
+//     console.log( ) sum;
 // }
 // console.log(calcSum([1,2,3]));
 
@@ -3227,23 +3227,23 @@
 //             del.push(i);
 //         }
 //     }
-//     return del;
+//     console.log( ) del;
 // }
   
 // console.log(func(12)); 
   
 // function func(str) {
-//     return str.split('');
+//     console.log( ) str.split('');
 // }
 // console.log(func('fffkkk')); 
 
 // function func(str) {
-//     return str.split('').reverse().join('');
+//     console.log( ) str.split('').reverse().join('');
 // }
 // console.log(func('fffkkk')); 
 
 // function func(str) {
-//     return str.slice(0, 1).toUpperCase() + str.slice(1);
+//     console.log( ) str.slice(0, 1).toUpperCase() + str.slice(1);
 // }
 // console.log(func('fffkkk')); 
 
@@ -3252,7 +3252,7 @@
 //     for (let i = 0; i < str.length; i++) {
 //         str[i] = str[i][0].toUpperCase() + str[i].substr(1);
 //     }
-//     return str.join(' ');
+//     console.log( ) str.join(' ');
 // }
 
 // console.log(func("fff fff hhh"));
@@ -3262,7 +3262,7 @@
 //     for (let i = 1; i <= n; i++) {
 //       arr.push(i);
 //     }
-//     return arr;
+//     console.log( ) arr;
 // }
   
 // console.log(func(5));
@@ -3273,44 +3273,44 @@
 //     for (let elem of arr) {
 //         sum += Number(elem);
 //     }
-//     return sum;
+//     console.log( ) sum;
 // }
 
 // console.log(func(15));
 
 // function func(year) {
 //     if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-//       return 'високосный год';
+//       console.log( ) 'високосный год';
 //     } else {
-//       return 'не високосный год';
+//       console.log( ) 'не високосный год';
 //     }
 // }
 
 // function func(seconds) {
 //     let day = 86400;
-//     return Math.floor(seconds / day); 
+//     console.log( ) Math.floor(seconds / day); 
 // }
 
 // function func(arr) {
 //     let random = Math.floor(Math.random() * arr.length);
-//     return arr[random];
+//     console.log( ) arr[random];
 // }
   
 // function func(num) {
     
 //     for (let i = 2; i < num; i++) {
 //       if (num % i === 0) {
-//         return 'не простое';
+//         console.log( ) 'не простое';
 //       }
 //     }
     
-//     return 'простое';
+//     console.log( ) 'простое';
 // }
 
 //223
 
 // function func() {
-// 	return '!';
+// 	console.log( ) '!';
 // }
 
 // console.log(func); // увидим код функции
@@ -3318,21 +3318,21 @@
 //224
 
 // function func() {
-// 	return 'fff';
+// 	console.log( ) 'fff';
 // }
 
 // function func() {
-// 	return 'fff';
+// 	console.log( ) 'fff';
 // }
 // console.log(func()); 
 
 // function func() {
-// 	return 'fff';
+// 	console.log( ) 'fff';
 // }
 // console.log(func); 
 
 // function func() {
-// 	return 'fff';
+// 	console.log( ) 'fff';
 // }
 // func = 123; 
 // console.log(func); 
@@ -3340,7 +3340,7 @@
 //225
 
 // function func1(){
-//     return 3;
+//     console.log( ) 3;
 // }
 // let func2 = func1;
 // console.log(func1() + func2());
@@ -3348,10 +3348,10 @@
 //226
 
 // let func1 = function() {
-//     return 1;
+//     console.log( ) 1;
 // }
 // let func2 = function() {
-//     return 2;
+//     console.log( ) 2;
 // }
 // alert (func1() + func2())
 
@@ -3379,9 +3379,9 @@
 //237
 
 // let arr = [
-//     function() {return 1},
-//     function() {return 2},
-//     function() {return 3},
+//     function() {console.log( ) 1},
+//     function() {console.log( ) 2},
+//     function() {console.log( ) 3},
 // ];
 // console.log(arr[2]());
 // console.log(arr[0]() + arr[1]() + arr[2]());
@@ -3393,9 +3393,9 @@
 //238
 
 // let obj = {
-//  func1: function() {return 1},
-//  func2: function() {return 2},
-//  func3: function() {return 3},
+//  func1: function() {console.log( ) 1},
+//  func2: function() {console.log( ) 2},
+//  func3: function() {console.log( ) 3},
 // };
 // console.log(obj.func1() + obj.func2() + obj.func3());
 // for (let key in obj) {
@@ -3409,17 +3409,17 @@
 //         let sum = 0;
 //         for (let elem of arr) {
 //         sum+=elem;
-//     } return sum; },
+//     } console.log( ) sum; },
 //     square: function(arr) {
 //         let res = 1;
 //         for (let elem of arr) {
 //         res = elem ** 2;
-//     } return res; },
+//     } console.log( ) res; },
 // 	cube: function(arr) {
 //         let res = 1;
 //         for (let elem of arr) {
 //         res = elem ** 3;
-//     } return res; },
+//     } console.log( ) res; },
 // }
 // let arr = [1, 2];
 // console.log(obj.sum(arr)); 
@@ -3428,9 +3428,9 @@
 
 //240
 // test (
-//     function() {return 1;},
-//     function() {return 2;},
-//     function() {return 3;},
+//     function() {console.log( ) 1;},
+//     function() {console.log( ) 2;},
+//     function() {console.log( ) 3;},
 // );
 // function test(func1, func2, func3){
 //     console.log(func1() + func2() + func3());
@@ -3439,44 +3439,44 @@
 //241
 
 // function func1() {
-//     return 1;
+//     console.log( ) 1;
 // }
 // function func2() {
-//     return 2;
+//     console.log( ) 2;
 // }
 // function func3() {
-//     return 3;
+//     console.log( ) 3;
 // }
 // function test(func1, func2, func3) {
-//     return func1() + func2() + func3();
+//     console.log( ) func1() + func2() + func3();
 // }
 // console.log(test(func1, func2, func3)); 
 
 // function func1() {
-//     return 1;
+//     console.log( ) 1;
 // }
 // function func2() {
-//     return 2;
+//     console.log( ) 2;
 // }
 // function func3() {
-//     return 3;
+//     console.log( ) 3;
 // }
 // function test(func1, func2, func3) {
-//     return func1() + func2() + func3();
+//     console.log( ) func1() + func2() + func3();
 // }
 // console.log(test(func1, func2, func3)); 
 
 // let func1 = function() {
-//     return 1;
+//     console.log( ) 1;
 // };
 // let func2 = function() {
-//     return 2;
+//     console.log( ) 2;
 // };
 // let func3 = function() {
-//     return 3;
+//     console.log( ) 3;
 // };
 // function test(func1, func2, func3) {
-//     return func1() + func2() + func3();
+//     console.log( ) func1() + func2() + func3();
 // }
 // console.log(test(func1, func2, func3));
 
@@ -3485,7 +3485,7 @@
 //  console.log(func(3));
 // }
 // function cube(num) {
-//     return num * num * num;
+//     console.log( ) num * num * num;
 // }
 // test(cube);
 
@@ -3493,7 +3493,7 @@
 //  console.log(func(3));
 // };
 // function cube(num) {
-//     return num * num * num;
+//     console.log( ) num * num * num;
 // }
 // test(cube);
 
@@ -3501,21 +3501,21 @@
 //  alert(func(2, 3));
 // }
 // function sum(num1, num2) {
-//     return num1 + num2;
+//     console.log( ) num1 + num2;
 // }
 // test(sum);
 
 // //243
 // function test(num, func1, func2) {
-//     return func1(num) + func2(num);
+//     console.log( ) func1(num) + func2(num);
 // }
   
 // function square(num) {
-//     return num * num;
+//     console.log( ) num * num;
 // }
   
 // function cube(num) {
-//     return num * num * num;
+//     console.log( ) num * num * num;
 // }
 // console.log(test(3, square, cube)); 
 
@@ -3525,11 +3525,11 @@
 //   arr[i] = func(arr[i]);
 //  }
  
-//  return arr;
+//  console.log( ) arr;
 // }
 
 // let result = test([8, 2, 5], function(num) {
-//  return num * num * num;
+//  console.log( ) num * num * num;
 // });
 
 // console.log(result);
@@ -3537,27 +3537,27 @@
 // //245
 // function func(num1, num2) {
 //     function cube(num2) {
-//         return num2 * num2 * num2;
+//         console.log( ) num2 * num2 * num2;
 //     }
 // 	function square(num1) {
-// 		return num1 * num1;
+// 		console.log( ) num1 * num1;
 // 	}
 	
-// 	return square(num1) + cube(num2);
+// 	console.log( ) square(num1) + cube(num2);
 // }
 
 // console.log(func(2, 3));
 
 // //250
 // function func1() {
-//     return function() {
-//       return 1;
+//     console.log( ) function() {
+//       console.log( ) 1;
 //     };
 // }
   
 // function func2() {
-//     return function() {
-//       return 2;
+//     console.log( ) function() {
+//       console.log( ) 2;
 //     };
 // }
   
@@ -3566,11 +3566,11 @@
 
 // //251
 // function func() {
-//     return function(){
-//         return function(){
-//             return function() {
-//                 return function() {
-//                     return '!';
+//     console.log( ) function(){
+//         console.log( ) function(){
+//             console.log( ) function() {
+//                 console.log( ) function() {
+//                     console.log( ) '!';
 //                 };
 //             };
 //         };
@@ -3581,9 +3581,9 @@
 
 // //252
 // function func(num1) {
-//     return function (num2){
-//         return function(num3) {
-//             return num1 + num2 + num3;
+//     console.log( ) function (num2){
+//         console.log( ) function(num3) {
+//             console.log( ) num1 + num2 + num3;
 //         };
 //     };
 // }
@@ -3592,10 +3592,10 @@
 
 // 
 // function func(x) {
-//     return function(y) {
-//         return function(z) {
-//             return function(w) {
-//                 return [x, y, z, w];
+//     console.log( ) function(y) {
+//         console.log( ) function(z) {
+//             console.log( ) function(w) {
+//                 console.log( ) [x, y, z, w];
 //             };
 //         };
 //     };
@@ -3609,11 +3609,11 @@
 //     for (let i = 0; i < arr.length; i++) {
 //       result.push(callback(arr[i]));
 //     }
-//     return result;
+//     console.log( ) result;
 // }
 // let array = [1, 2, 3, 4, 5];
 // let resultarr = each(array, function(num) {
-// 	return num * 2;
+// 	console.log( ) num * 2;
 // });
 
 // console.log(resultarr);
@@ -3623,11 +3623,11 @@
 //     for (let i = 0; i < arr.length; i++) {
 //       result.push(callback(arr[i]));
 //     }
-//     return result;
+//     console.log( ) result;
 // }
 // let string = [ "world", "Hellow"];
 // let resultstr = each(string, function(str) {
-// 	return str.split('').reverse().join('');
+// 	console.log( ) str.split('').reverse().join('');
 // });
 // console.log(resultstr);
 
@@ -3636,11 +3636,11 @@
 //     for (let i = 0; i < arr.length; i++) {
 //       result.push(callback(arr[i]));
 //     }
-//     return result;
+//     console.log( ) result;
 // }
 // let string = [ "world", "hellow"];
 // let resultstr = each(string, function(str) {
-// 	return str.slice(0, 1).toUpperCase() + str.slice(1);
+// 	console.log( ) str.slice(0, 1).toUpperCase() + str.slice(1);
 // });
 // console.log(resultstr);
 
@@ -3650,10 +3650,10 @@
 //     for (let i = 0; i < arr.length; i++) {
 //         result.push(callback(arr[i]));
 //     }
-//     return result;
+//     console.log( ) result;
 // }
 // function cube(num) {
-// 	return num ** 3;
+// 	console.log( ) num ** 3;
 // }
 // let resultarr = each([1, 2, 3, 4, 5], cube);
 // console.log(resultarr);
@@ -3665,7 +3665,7 @@
 
 // function test() {
 //     let num = 1;
-//     return function() {
+//     console.log( ) function() {
 //         console.log(num);
 //         num++;
 //     };
@@ -3673,7 +3673,7 @@
 
 // function test() {
 //     let num = 10;
-//     return function() {
+//     console.log( ) function() {
 //         console.log(num);
 //         num--;
 //     };
@@ -3684,7 +3684,7 @@
 
 // function test() {
 //     let num = 10;
-//     return function() {
+//     console.log( ) function() {
 //         if (num>0) {
 //             console.log(num);
 //             num--;
@@ -3699,20 +3699,20 @@
 
 //269
 // (function() {
-// 	return function() {
+// 	console.log( ) function() {
 //         console.log('!');
 //     }
 // })()()();
 
 // (function(num1) {
-// 	return function(num2){
+// 	console.log( ) function(num2){
 //         console.log(num1 + num2);
 //     }
 // })(1)(2);
 
 // (function(num1) {
-// 	return function(num2){
-//         return function(num3) {
+// 	console.log( ) function(num2){
+//         console.log( ) function(num3) {
 //             console.log(num1 + num2 + num3);
 //         }
 //     }
@@ -3720,7 +3720,7 @@
 
 // let func = (function(){
 //     let num = 1;
-//     return function(){
+//     console.log( ) function(){
 //         if (num<6){
 //             console.log(num);
 //         } else {
@@ -3760,7 +3760,7 @@
 // 		sum += getSum(arr);
 // 	}
 	
-// 	return sum;
+// 	console.log( ) sum;
 // }
 
 // console.log(getSum([1, 2, 3, 4, 5]));
@@ -3788,7 +3788,7 @@
 // 		} else {
 //             arr1.push(arr1[elem]);
 
-// 		}    return arr1;
+// 		}    console.log( ) arr1;
 
 // 	}
 // }
@@ -3805,7 +3805,7 @@
 //     arr1.push(arr[elem]);
 
 //   }
-//   return arr;
+//   console.log( ) arr;
 
 // }
 // }
@@ -3824,7 +3824,7 @@
 // 		}
 // 	}
 	
-// 	return sum;
+// 	console.log( ) sum;
 // }
 
 // console.log(func({a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}}));
@@ -3840,7 +3840,7 @@
 // 		}
 // 	}
 	
-// 	return sum;
+// 	console.log( ) sum;
 // }
 
 // console.log(func(['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]));
@@ -3855,7 +3855,7 @@
 // 		}
 // 	}
 	
-// 	return arr;
+// 	console.log( ) arr;
 // }
 
 // console.log(func([1, [2, 7, 8], [3, 4], [5, [6, 7]]]));
@@ -3865,7 +3865,7 @@
 // let arr = [1, 2, 3];
 
 // let res = arr.map (function (elem) {
-//     return Math.sqrt(elem);
+//     console.log( ) Math.sqrt(elem);
 // });
 // console.log(res);
 
@@ -3873,7 +3873,7 @@
 // let arr = ['a', 'b', 'c'];
 
 // let res = arr.map (function (elem) {
-//     return elem + '!';
+//     console.log( ) elem + '!';
 // });
 // console.log(res);
 
@@ -3881,7 +3881,7 @@
 // let arr = ['abv', 'b', 'c'];
 
 // let res = arr.map (function (elem) {
-//     return elem.split('').reverse().join('');
+//     console.log( ) elem.split('').reverse().join('');
 // });
 // console.log(res);
 
@@ -3890,7 +3890,7 @@
 
 // let res = arr.map (function (elem) {
 //     let str = elem.split('');
-//     return str;
+//     console.log( ) str;
 // });
 // console.log(res);
 
@@ -3898,7 +3898,7 @@
 // let arr = [1, 2, 3];
 
 // let result = arr.map(function(elem, index) {
-// 	return elem * index;
+// 	console.log( ) elem * index;
 // });
 
 // console.log(result); 
@@ -3966,7 +3966,7 @@
 // let arr = [1, 2, 3, 4, 5];
 
 // function func(num1, num2, num3, num4, num5) {
-// 	return num1 + num2 + num3 + num4 + num5;
+// 	console.log( ) num1 + num2 + num3 + num4 + num5;
 // }
 
 // console.log(func(...arr)); 
@@ -3983,7 +3983,7 @@
 // 		sum += num;
 // 	}
 	
-// 	return sum / nums.length;
+// 	console.log( ) sum / nums.length;
 // }
 
 // let result = func(1, 2, 3);
@@ -3995,7 +3995,7 @@
 
 //297
 // function func() {
-// 	return ['John', 'Smit', 'development', 'programmer', 2000];
+// 	console.log( ) ['John', 'Smit', 'development', 'programmer', 2000];
 // }
 // let [name, surname, department, position, salary] = func();
 
@@ -4014,13 +4014,13 @@
 //302
 // let arr = [ , , ];
 // function funcy() {
-// 	return (new Date).getFullYear();
+// 	console.log( ) (new Date).getFullYear();
 // }
 // function funcm() {
-// 	return (new Date).getMonth();
+// 	console.log( ) (new Date).getMonth();
 // }
 // function func() {
-// 	return (new Date).getDate();
+// 	console.log( ) (new Date).getDate();
 // }
 // let [year = funcy(), month = funcm(), day = func()] = arr;
 
@@ -4058,8 +4058,8 @@
 // };
 // let {color:c = 'black', width, height} = options;
 
-
-//309.1
+//309
+//1
 // func( ['John', 'Smit', 'development', 'programmer', 2000] );
 // function func([name, surname, department, position, salary]) {
 // console.log(department);
@@ -4069,7 +4069,7 @@
 // console.log(salary);
 // }
 
-//309.2
+//2
 // func( ['John', 'Smit', 'development', 'programmer', 2000] );
 // function func([name, surname, ...info]) {
 // console.log(name);
@@ -4077,7 +4077,7 @@
 // console.log(info);
 // }
 
-//309.3
+//3
 // func( ['John', 'Smit', 'development'] );
 // function func([name, surname, department, position = 'джуниор']) {
 // console.log(name);
@@ -4086,7 +4086,7 @@
 // console.log(position);
 // }
 
-//309.4
+//4
 // func('development', ['John', 'Smit'], [2018, 12, 31] );
 // function func(department, [name, surname], [year, month, day]) {
 // console.log(department);
@@ -4099,7 +4099,8 @@
 // console.log(day);
 // }
 
-//310.1
+//310
+//1
 // function func({color, width, height}) {
 // console.log(color);
 // console.log(width);
@@ -4108,7 +4109,7 @@
 
 // func( {color: 'red', width: 400, height: 500} );
 
-//310.2
+//2
 // function func({color = 'black', width, height}) {
 //     console.log(color);
 //     console.log(width);
@@ -4127,9 +4128,9 @@
 //312
 // function addZero(num) {
 //     if (num >= 0 && num <= 9) {
-//         return '0' + num;
+//         console.log( ) '0' + num;
 //     } else {
-//         return num;
+//         console.log( ) num;
 //     }
 //     }
 //     let date = new Date();
@@ -4144,7 +4145,7 @@
     
 // );
     
-// //313
+//313
 // let str = '2025-12-31';
 // let res = str.split('-').reverse().join('.');
 
@@ -4185,14 +4186,299 @@
 // let date = new Date(2025, 1, 1, 23, 59, 59);
 // console.log(date.getTime());
 
-//318.1
+//318
+//1
 // let now = new Date(1988, 3, 1, 23, 59, 59);
 // let date = new Date(2000, 1, 10, 23, 59, 59);
 // let diff = date.getTime() - now.getTime();
 // console.log(diff / (1000 * 60 * 60 * 24));
 
-//318.2
+//2
 // let now = new Date();
-// let date = new Date(2006, 2, 12, 23, 59, 59);
+// let date = new Date(2005, 7, 24, 23, 59, 59);
 // let diff = now.getTime() - date.getTime();
 // console.log(diff / (1000 * 60 * 60 * 24 * 30));
+
+//319
+//1
+// let date1  = new Date(2000, 9, 1, 23, 59, 59);
+// let date2 = new Date(2010, 2, 15, 23, 59, 59);
+// let diff = date2 - date1; 
+// console.log(diff); 
+
+//2
+// let date1  = new Date(2000, 9, 1, 23, 59, 59);
+// let date2 = new Date(2010, 2, 15, 23, 59, 59);
+// let diff = date2 - date1; 
+// console.log(diff * 1.1574 * 10**(-8)); 
+
+//3
+// let date1  = new Date(2000, 9, 1, 23, 59, 59);
+// let date2 = new Date(2010, 2, 15, 23, 59, 59);
+// let diff = date2 - date1; 
+// console.log(diff * 3.8 * 10**(-10)); 
+
+//4
+// let date1  = new Date(2000, 9, 1, 23, 59, 59);
+// let date2 = new Date(2010, 2, 15, 23, 59, 59);
+// let diff = date2 - date1; 
+// console.log(diff * 3.8 * 10**(-10) / 12); 
+
+//321
+// function func(year, month) {
+//     let date = new Date(year, month, 0);
+//     console.log( ) date.getDate();
+// }
+// console.log(func(2020, 3));
+
+//2
+// let date = new Date(2025, 5, 0);
+// let day  = date.getDay();
+// let days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+// console.log(days[day]);
+
+//322
+// function isLeap(year) {
+//     let date = new Date(year, 2, 0);
+
+//     if (date.getDate() == 29) {
+// 	    console.log( ) true;
+//     } else {
+// 	    console.log( ) false;
+//     }
+// }
+// console.log(isLeap(2024));
+
+//323
+// function checkDate(year, month, day) {
+
+//     let date = new Date(year, month, day);
+
+//     if (date.getFullYear() == year && date.getMonth() == month && date.getDate() == day) {
+//         console.log( ) true;
+//     } else {
+//         console.log( ) false;
+//     }
+// }
+// console.log(checkDate(2025, 0, 31));
+
+//324
+// let now  = new Date(); 
+// let date = new Date(now.getFullYear(), 11, 31); 
+// console.log(date.getDay());
+
+//325
+// let now = new Date();
+// let date = new Date(now.getFullYear(), now.getMonth() - 1, 24);
+// console.log(date.getDay());
+
+//326
+// let now = new Date();
+// let date = new Date(now.getFullYear() + 1, 11, 31);
+// console.log(date.getDay());
+
+//2
+// let now = new Date();
+// let date = new Date(now.getFullYear() + 1, now.getMonth(), now.getDate());
+// console.log(date.getDay());
+
+//3
+// let now = new Date();
+// let date = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
+// console.log(date.getDay());
+
+//327
+// let now = new Date();
+// let date1 = new Date(now.getFullYear(), 0, 1, 12, 59, 59);
+// let date2 = new Date(now.getFullYear(), 8, 10, 12, 59, 59);
+// console.log((date2 - date1) * 1.1574 * 10**(-8)); 
+
+//2
+// let now = new Date();
+// let date1 = new Date(now.getFullYear(), now.getMonth(), 20, 12, 59, 59);
+// let date2 = new Date(now.getFullYear(), now.getMonth() + 1, 10, 12, 59, 59);
+// console.log((date2 - date1) * 1.1574 * 10**(-8)); 
+
+//328
+// let now  = new Date();
+// let date = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1, 12);
+// console.log((now - date) * 2.778 * 10**(-7));
+
+//329
+// let now  = new Date();
+// let date1 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0);
+// console.log((now - date1) / (1000 * 60 * 60));
+
+//330
+// let now  = new Date();
+// let date = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24);
+// console.log((date - now) / (1000 * 60 * 60));
+
+//331
+// let res = 0;
+
+// for (let year = 2000; year <= new Date().getFullYear(); year++) {
+// 	let date = new Date(year, 0, 1);
+	
+// 	if (date.getDay() == 0 || date.getDay() == 6) {
+// 		res++;
+// 	}
+// }
+
+// console.log(res);
+
+//332
+// let now  = new Date();
+// let date = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 1);
+// console.log((now - date) / 1000);
+
+//2
+// let now  = new Date();
+// let date = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24);
+// console.log((date - now) / 1000);
+
+//3
+// let now  = new Date();
+// let date1 = new Date(now.getFullYear() + 1, 1, 1);
+// console.log((date1 - now) *  1.1574 * 10**(-8) );
+
+//4
+// let res = 0;
+// let now = new Date().getFullYear();
+// for (let month = 0; month < 12; month++) {
+//     let date = new Date(now, month, 13);
+//     if (date.getDay() === 5) { 
+//         res++;
+//     }
+// }
+// console.log(res);
+
+//5
+// let now = new Date();
+// let lastYear = now.getFullYear();
+// let month3 = now.getMonth() - 3;
+// if (month3 < 0) {
+//     lastYear--;
+//     month3 = 12 + month3;
+// }
+// console.log(lastYear);
+
+//6
+// let now = new Date();
+// let lastDaym= new Date(now.getFullYear(), now.getMonth() + 1, 0);
+// let lastDay = lastDaym.getDay();
+// console.log(lastDay); 
+
+//7
+// let now = new Date();
+// let year = now.getFullYear();
+// let date = new Date(year, 2, 0);
+
+// if (date.getDate() == 29) {
+//         console.log('високосный');;
+// } else {
+//     console.log('не високосный');;
+// };
+
+//8
+// let now = new Date();
+
+// for (let year = now.getFullYear() - 1; year >= 0; year--) {
+//     let date = new Date(year, 2, 0);
+//     if (date.getDate() == 29) {
+//         console.log(year);
+//         break;
+//     }
+// }
+
+//9
+// let now = new Date().getFullYear();
+// let nextYear = now + 1;
+// while (true) {
+//   if ((nextYear % 4 === 0 && nextYear % 100 !== 0) || nextYear % 400 === 0) {
+//     console.log(nextYear);
+//     break;
+//   }
+//   nextYear++;
+// }
+
+//333
+// let date1 = '2020-11-31';
+// let date2 = '2020-12-01';
+// if (date1 > date2) {
+//     console.log('date1 > date2');
+// } else {
+//     console.log('date1 < date2');
+// }
+
+//334
+// let date1 = '09-21';
+// let date2 = '09-23';
+
+// if (date1 > date2) {
+//     console.log('date1 > date2');
+// } else {
+//     console.log('date1 < date2');
+// }
+
+//335
+// let date = '08-20';
+
+//     if (date >= '03-21' && date <= '04-19') {
+//       console.log("Овен");
+//     } 
+//     if (date >= '04-20' && date <= '05-20') {
+//       console.log("Телец" ) ;
+//     } 
+//     if (date >= '05-21' && date <= '06-20') {
+//       console.log("Близнецы" ) ;
+//     } 
+//     if (date >= '06-21' && date <= '07-22') {
+//       console.log("Рак" ) ;
+//     } 
+//     if (date >= '07-23' && date <= '08-22') {
+//       console.log("Лев" ) ;
+//     } 
+//     if (date >= '08-23' && date <= '09-22') {
+//       console.log("Дева" ) ;
+//     } 
+//     if (date >= '09-23' && date <= '10-22') {
+//       console.log("Весы" ) ;
+//     }
+//     if (date >= '10-23' && date <= '11-21') {
+//       console.log("Скорпион" ) ;
+//     } 
+//     if (date >= '11-22' && date <= '12-21') {
+//       console.log("Стрелец" ) ;
+//     } 
+//     if (date >= '12-22' && date <= '01-19') {
+//       console.log( "Козерог") ;
+//     } 
+//     if (date >= '01-20' && date <= '02-18') {
+//       console.log("Водолей" ) ;
+//     } 
+//     if (date >= '02-19' && date <= '03-20') {
+//       console.log("Рыбы" ) ;
+//     } 
+
+//336
+// let now = new Date(); 
+
+// let pol = new Date();
+// pol.setHours(12, 0, 0, 0);
+
+// if (now >= pol) {
+//   console.log("Уже прошел полдень");
+// } else {
+//   console.log("Еще не наступил полдень");
+// }
+
+//2
+// let now = new Date();
+// let pol = new Date(now.getFullYear(), now.getMonth(), 15);
+
+// if (now > pol) {
+//     console.log("Половина месяца уже прошла");
+// } else {
+//     console.log("Половина месяца еще не прошла");
+// }
