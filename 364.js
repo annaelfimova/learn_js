@@ -18,9 +18,10 @@
 // let input = document.querySelector('#input')
 // let p = document.querySelector('p')
 // input.addEventListener('blur', function() {
+//     elems = input.value;
 //     let sum = 0;
-//     for(let num of input.value){
-//         sum += +num;
+//     for(let elem of elems){
+//         sum += +elem;
 //     }
 //     p.textContent = sum;
 // })
@@ -52,30 +53,24 @@
 
 // 6
 // let input = document.querySelector("#input")
-// function firstLetterToUpperCase(str) {
-
-//     let arr = str.split('')
-//     arr[0] = arr[0].toUpperCase()
-//     return arr.join('')
-// }
-// function firstLetterInEachWordToUpperCase(str) {
-//     let arr = str.split(' ')
-//     let newArr = []
-//     for (let word of arr) {
-//         newArr.push(firstLetterToUpperCase(word))
-//     }
-//     return newArr.join(' ')
-// }
-// input.addEventListener('blur', function () {
-//     input.value = firstLetterInEachWordToUpperCase(input.value)
-// })
+// input.addEventListener('blur', () => {
+//     let text = input.value;
+//     let words = text.split(' ')
+//     let res = words.map(function (word) {
+//     return word.charAt(0).toUpperCase() + word.slice(1);
+//     }).join(' ');
+//     input.value = res;
+// });
 
 // 7
-// let input = document.querySelector('#input')
-// input.addEventListener('blur', function() {
-//     let arr = input.value.split(' ')
-//     input.value = arr.length
-// })
+// let p = document.querySelector('p');
+// let input = document.querySelector('#input');
+
+// input.addEventListener('blur', function () {
+//     let text = input.value;
+//     let words = text.split(' ')
+//     p.textContent = words.length;
+// });
 
 // 8
 // let input = document.querySelector("#input")
@@ -110,35 +105,35 @@
 //         if (element==='3'){
 //             res.textContent = 'true' 
 //         }
-//         else if (res.textContent != 'true') {
+//         else {
 //             res.textContent = 'false'
 //         }
 //     });
 // })
 
 // 11
-// let p = document.querySelectorAll('p')
+// let res = document.querySelectorAll('p')
 // let button = document.querySelector("#button")
 // button.addEventListener('click' , function () {
-//     p.forEach((elem, id) => {
+//     res.forEach((elem, id) => {
 //         elem.textContent += id + 1;
 //     })
 // })
 
 // 12
-// let links = document.querySelectorAll('a')
+// let link = document.querySelectorAll('a')
 // let button = document.querySelector("#button")
-// button.addEventListener('click', ()=> {
-//     links.forEach(elem => 
+// button.addEventListener('click', function () {
+//     link.forEach(elem => 
 //         elem.textContent+= '('+ elem.href +')'
 //         )
 // })
 
 // 13
-// let links = document.querySelectorAll('a')
+// let link = document.querySelectorAll('a')
 // let button = document.querySelector("#button")
-// button.addEventListener('click', ()=> {
-//     links.forEach(elem => {
+// button.addEventListener('click', function () {
+//     link.forEach(elem => {
 //         if (elem.href.startsWith('https://')) {
 //             elem.textContent += '->';
 //         }
@@ -167,20 +162,21 @@
 // let input = document.querySelector('#input')
 // let minus = document.querySelector('#minus')
 // let plus = document.querySelector('#plus')
-// minus.onclick = () => {
+// minus.addEventListener('click', function() {
 //     if (+input.value !== 0) {
 //         input.value = +input.value - 1
 //     }
-// }
-// plus.onclick = () => {
+// }) 
+// plus.addEventListener('click', function() {
 //     input.value = +input.value + 1
-// }
+
+// }) 
 
 // 17
 // let input = document.querySelector('#input')
 // let elems = document.querySelectorAll('p')
 // elems.forEach(elem => {
-//     elem.addEventListener('click', () => {
+//     elem.addEventListener('click', function () {
 //         input.value = +input.value + 1
 //     })
 // })
@@ -188,53 +184,51 @@
 // 18
 // let elems = document.querySelectorAll('div')
 // elems.forEach(elem => {
-//     let str = elem.textContent.substring(0, 10)
-//     elem.textContent = str + '...'
-// })
-
-// 19
-// let input = document.querySelector('#input')
-// input.addEventListener('blur', () => {
-//     let value = +input.value
-//     if(value >= 1 && value <= 100) {
-//         input.style.backgroundColor = 'green'
-//     }
-//     else {
-//         input.style.backgroundColor = 'red'
+//     let text = elem.textContent;
+//     if (text.length > 10) {
+//     text = text.slice(0, 10) + '...';
+//     elem.textContent = text;
 //     }
 // })
 
-// 20
+//19
 // let input = document.querySelector('#input')
 // let button = document.querySelector('#button')
-// button.addEventListener('click', () => {
-//     let text = input.value;
-//     let text1 = String(text);
-//     input.value = text1;
+// button.addEventListener('click', function () {
+//     let ren = renString (8);
+//     input.value = ren;
 // })
-// let String = (str) => {
-//     let len = str.split('');
-//     for (let i = len.length - 1; i > 0; i--) {
-//         let j = Math.floor(Math.random() * (i + 1));
-//         [len[i], len[j]] = [len[j], len[i]];   
+// function renString() {
+//     let nab = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//     let res = "";
+//     for (let i = 0; i < 8; i++) {
+//         res += nab.charAt(Math.floor(Math.random()*nab.length)) 
 //     }
-//     return len.join('');
+//     return res;
 // }
+
+// 20
+// let input = document.querySelector('#input');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', () => {
+//     const text = input.value;
+//     const shuffledText = shuffleString(text);
+//     input.value = shuffledText;
+// });
+
+// function shuffleString(str) {
+//     return str.split('').sort(() => Math.random() - 0.5).join('');
+// };
 
 // 21
 // let input = document.querySelector('#input');
 // let button = document.querySelector('#button');
 // let p = document.querySelector('p');
-
-// button.addEventListener('click', () => {
-//     let far = parseFloat(input.value);
-//     let cel = convert(far);
+// button.addEventListener('click', function () {
+//     let far = input.value;
+//     let cel = ((far - 32) * 5/9).toFixed(2);
 //     p.textContent = cel;
 // });
-
-// let convert = (far) => {
-//     return ((far - 32) * 5/9).toFixed(2);
-// };
 
 // 22
 // let input = document.querySelector('#input')
@@ -248,9 +242,9 @@
 //         return num * factorial(num - 1);
 //     }
 // }
-// button.onclick = () => {
+// button.addEventListener('click', function () {
 //     result.textContent = factorial(+input.value)
-// }
+// })
 
 // 23
 // let input1 = document.querySelector('#input1')
@@ -258,22 +252,16 @@
 // let input3 = document.querySelector('#input3')
 // let button = document.querySelector('#button')
 // let result = document.querySelector('p')
-// function res(a, b, c) {
-//     let d = b**2 - 4*a*c
+// button.addEventListener('click', function () {
+//     let a = +input1.value;
+//     let b = +input2.value;
+//     let c = +input3.value;
+//     let d = b**2 - 4*a*c;
 //     if (d >= 0) {
-//         return {
-//             x1: (-b + d**0.5) / (2*a),
-//             x2: (-b - d**0.5) / (2*a)
-//         }
-//     }
-//     else {
+//         let x1 = (-b + d**0.5) / (2*a);
+//         let x2 = (-b - d**0.5) / (2*a);
+//         result.textContent = x1 + '    ' + x2;
+//     } else {
 //         return false
 //     }
-// }
-// button.onclick = () => {
-//     let num1 = +input1.value
-//     let num2 = +input2.value
-//     let num3 = +input3.value
-//     let sol = res(num1, num2, num3)
-//     result.textContent = sol.x1 + '    ' + sol.x2
-// }
+// })
