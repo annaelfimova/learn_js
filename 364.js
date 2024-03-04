@@ -89,13 +89,10 @@
 
 // 9
 // let input = document.querySelector("#input")
-// let res = document.querySelector("#res")
+// let res = document.querySelector("p")
 // let button = document.querySelector("#button")
 // button.addEventListener('click' , function () {
-//     let reverse = input.value
-//         .split('')
-//         .reverse()
-//         .join('')
+//     let reverse = input.value.split('').reverse().join('')
 //     if (input.value === reverse) {
 //         res.textContent = 'true'
 //     }
